@@ -1,0 +1,70 @@
+# System / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+*.tmp
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# -------------------------
+# Build / Temp / Logs
+# -------------------------
+node_modules/
+dist/
+build/
+tmp/
+temp/
+.cache/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -------------------------
+# OS / Binary / Compiled
+# -------------------------
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.out
+*.class
+
+# Lua compiled bytecode
+*.luac
+
+# -------------------------
+# Environment / Secrets
+# -------------------------
+.env
+.env.local
+.env.*.local
+secrets.*
+*.key
+*.pem
+
+# -------------------------
+# Test / Coverage
+# -------------------------
+coverage/
+coverage-final.json
+lcov-report/
+
+# -------------------------
+# Misc / Archives
+# -------------------------
+*.zip
+*.tar.gz
+*.rar
+*.7z
